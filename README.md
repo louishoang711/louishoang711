@@ -1,41 +1,58 @@
 <div align="center">
-  <h1>Louis</h1>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=slice&amp;height=205&amp;color=0:101a18,55:174631,100:32724c&amp;text=Louis&amp;fontSize=76&amp;fontColor=E6FFEF&amp;animation=twinkling&amp;fontAlignY=44" alt="Louis">
   <p><strong>Security Operations · Blue Team</strong></p>
-  <p>I build labs to understand what happened on a network and what an alert can tell me about it.</p>
+  <p>From wireless packets to alerts I can investigate.</p>
 </div>
 
-## WISE · Wireless Detection Lab
+### `~/projects`
 
-My team built an isolated Wi-Fi lab to see how suspicious activity on real devices shows up in packet captures and Wazuh alerts.
+<table width="100%">
+<tr><td width="800">
+  <strong><a href="https://github.com/louishoang711/WISE">WISE · Wireless Detection Lab</a></strong><br>
+  Wireless packet capture with tshark and detection with Wazuh.<br>
+  <img src="https://img.shields.io/badge/DETECTION-24774A?style=flat-square" alt="DETECTION"> &nbsp; <a href="https://github.com/louishoang711/WISE/tree/main/docs/04-ket-qua">Lab results ↗</a>
+</td></tr>
+</table>
+
+<table width="100%">
+<tr><td width="800">
+  <strong><a href="https://github.com/louishoang711/Purple-team-SOC-Lab">Purple Team SOC Lab</a></strong><br>
+  Lab for SOC monitoring and detection practice.<br>
+  <img src="https://img.shields.io/badge/SOC_LAB-7055A4?style=flat-square" alt="SOC LAB">
+</td></tr>
+</table>
+
+<table width="100%">
+<tr><td width="800">
+  <strong><a href="https://github.com/anphan991/e-gov-signature-project">e-Gov Signature Project</a></strong><br>
+  A prototype for signing and verifying PDFs for public services.<br>
+  <img src="https://img.shields.io/badge/CRYPTOGRAPHY-286794?style=flat-square" alt="CRYPTOGRAPHY">
+</td></tr>
+</table>
+
+<table width="100%">
+<tr><td width="800">
+  <strong><a href="https://github.com/ProjectWEB-Team/Project_WEB">Project WEB</a></strong><br>
+  Collaborative Java web project.<br>
+  <img src="https://img.shields.io/badge/JAVA-996146?style=flat-square" alt="JAVA">
+</td></tr>
+</table>
+
+<details>
+  <summary>How WISE detects suspicious activity</summary>
 
 ```mermaid
 flowchart LR
-    capture["Capture<br/>tshark"] --> detect["Detect<br/>Wazuh"]
-    detect --> review["Review<br/>Alert evidence"]
-    classDef stage fill:#28322b,stroke:#63766a,color:#f0f3ed
-    classDef focus fill:#394b3e,stroke:#a4bca3,color:#f0f3ed
-    class capture,review stage
-    class detect focus
+    capture["Capture · tshark"] --> detect["Detect · Wazuh"] --> review["Review · alert evidence"]
+    classDef stage fill:#26372f,stroke:#5b8a70,color:#effbf1
+    class capture,detect,review stage
 ```
 
-[Explore WISE ↗](https://github.com/louishoang711/WISE) · [Read the lab results ↗](https://github.com/louishoang711/WISE/tree/main/docs/04-ket-qua)
-
-## Selected projects
-
-**[Purple Team SOC Lab ↗](https://github.com/louishoang711/Purple-team-SOC-Lab)**  
-A purple team lab focused on SOC monitoring and detection.
-
-**[e-Gov Signature Project ↗](https://github.com/anphan991/e-gov-signature-project)**  
-A prototype for signing and verifying PDFs in public administrative services.
-
-**[Project WEB ↗](https://github.com/ProjectWEB-Team/Project_WEB)**  
-A collaborative Java web project.
-
-<details>
-  <summary>Contribution Snake</summary>
-  <br>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/louishoang711/louishoang711/snake-output/snake-dark.svg">
-    <img alt="Animated snake moving through Louis's GitHub contributions" width="100%" src="https://raw.githubusercontent.com/louishoang711/louishoang711/snake-output/snake.svg">
-  </picture>
 </details>
+
+### `~/activity`
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/louishoang711/louishoang711/snake-output/snake-dark.svg">
+  <img alt="Contribution Snake for @louishoang711" width="100%" src="https://raw.githubusercontent.com/louishoang711/louishoang711/snake-output/snake.svg">
+</picture>
