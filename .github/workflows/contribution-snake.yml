@@ -1,0 +1,37 @@
+name: Contribution Snake
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/contribution-snake.yml
+  schedule:
+    - cron: '31 18 * * *'
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    if: github.repository == 'louishoang711/louishoang711' && github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Generate light and dark contribution grids
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: louishoang711
+          outputs: |
+            dist/snake.svg?palette=github-light&color_snake=%238b454c&color_dots=%23edf0ed,%23cddbcc,%23a4bca3,%23708d71,%23456048
+            dist/snake-dark.svg?palette=github-dark&color_snake=%23d78388&color_dots=%23212421,%232f3b31,%23485d48,%23738b70,%23acc2a5
+      - name: Publish animated images
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: snake-output
+          publish_dir: ./dist
+          enable_jekyll: true
