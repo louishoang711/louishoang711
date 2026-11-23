@@ -1,18 +1,18 @@
 <div align="center">
   <!-- Clean Sans + Mono Hero Banner (Adaptive Dark / Light) -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-    <img width="100%" src="./assets/hero-dark.svg" alt="Khang Hoang Phuc (Louis) — Blue Team SOC, Cloud DevOps &amp; Full-Stack">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg?v=3">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg?v=3">
+    <img width="100%" src="./assets/hero-dark.svg?v=3" alt="Khang Hoang Phuc (Louis) — Blue Team SOC, Cloud DevOps &amp; Full-Stack">
   </picture>
 
   <br>
 
   <!-- Animated Typing Font Effect (JetBrains Mono) -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=16&amp;duration=3200&amp;pause=1100&amp;color=22C55E&amp;center=true&amp;vCenter=true&amp;multiline=false&amp;repeat=true&amp;width=780&amp;height=36&amp;lines=%3E+Security+Operations+%2F%2F+Blue+Team+%26+Wazuh+SIEM;%3E+Cloud+%26+DevOps+%2F%2F+AWS+EC2+%26+RDS+%C2%B7+Docker+%C2%B7+Nginx+%C2%B7+GitHub+Actions;%3E+Full-Stack+%26+UI%2FUX+%2F%2F+Spring+Boot+%C2%B7+React+%C2%B7+TypeScript+%C2%B7+Figma;%3E+Lab+Telemetry+%2F%2F+Suricata+IDS+%C2%B7+tshark+%C2%B7+Sysmon+%40+HCMUTE">
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=16&amp;duration=3200&amp;pause=1100&amp;color=16A34A&amp;center=true&amp;vCenter=true&amp;multiline=false&amp;repeat=true&amp;width=780&amp;height=36&amp;lines=%3E+Security+Operations+%2F%2F+Blue+Team+%26+Wazuh+SIEM;%3E+Cloud+%26+DevOps+%2F%2F+AWS+EC2+%26+RDS+%C2%B7+Docker+%C2%B7+Nginx+%C2%B7+GitHub+Actions;%3E+Full-Stack+%26+UI%2FUX+%2F%2F+Spring+Boot+%C2%B7+React+%C2%B7+TypeScript+%C2%B7+Figma;%3E+Lab+Telemetry+%2F%2F+Suricata+IDS+%C2%B7+tshark+%C2%B7+Sysmon+%40+HCMUTE">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=16&amp;duration=3200&amp;pause=1100&amp;color=22C55E&amp;center=true&amp;vCenter=true&amp;multiline=false&amp;repeat=true&amp;width=780&amp;height=36&amp;lines=%3E+Security+Operations+%2F%2F+Blue+Team+%26+Wazuh+SIEM;%3E+Cloud+%26+DevOps+%2F%2F+AWS+EC2+%26+RDS+%C2%B7+Docker+%C2%B7+Nginx+%C2%B7+GitHub+Actions;%3E+Full-Stack+%26+UI%2FUX+%2F%2F+Spring+Boot+%C2%B7+React+%C2%B7+TypeScript+%C2%B7+Figma;%3E+Lab+Telemetry+%2F%2F+Suricata+IDS+%C2%B7+tshark+%C2%B7+Sysmon+%40+HCMUTE" alt="Animated typing bio">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=16&amp;duration=3200&amp;pause=1100&amp;color=22C55E&amp;center=true&amp;vCenter=true&amp;multiline=false&amp;repeat=true&amp;width=780&amp;height=36&amp;lines=%3E+Security+Operations+%2F%2F+Blue+Team+%26+Wazuh+SIEM;%3E+Cloud+%26+DevOps+%2F%2F+AWS+%C2%B7+Kubernetes+%C2%B7+Cloudflare+%C2%B7+Docker+%C2%B7+Nginx;%3E+Backend+%26+Caching+%2F%2F+Spring+Boot+%C2%B7+Redis+%C2%B7+SQL+Server+%C2%B7+React;%3E+Lab+Telemetry+%2F%2F+Suricata+IDS+%C2%B7+tshark+%C2%B7+Sysmon+%40+HCMUTE">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=16&amp;duration=3200&amp;pause=1100&amp;color=16A34A&amp;center=true&amp;vCenter=true&amp;multiline=false&amp;repeat=true&amp;width=780&amp;height=36&amp;lines=%3E+Security+Operations+%2F%2F+Blue+Team+%26+Wazuh+SIEM;%3E+Cloud+%26+DevOps+%2F%2F+AWS+%C2%B7+Kubernetes+%C2%B7+Cloudflare+%C2%B7+Docker+%C2%B7+Nginx;%3E+Backend+%26+Caching+%2F%2F+Spring+Boot+%C2%B7+Redis+%C2%B7+SQL+Server+%C2%B7+React;%3E+Lab+Telemetry+%2F%2F+Suricata+IDS+%C2%B7+tshark+%C2%B7+Sysmon+%40+HCMUTE">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=16&amp;duration=3200&amp;pause=1100&amp;color=22C55E&amp;center=true&amp;vCenter=true&amp;multiline=false&amp;repeat=true&amp;width=780&amp;height=36&amp;lines=%3E+Security+Operations+%2F%2F+Blue+Team+%26+Wazuh+SIEM;%3E+Cloud+%26+DevOps+%2F%2F+AWS+%C2%B7+Kubernetes+%C2%B7+Cloudflare+%C2%B7+Docker+%C2%B7+Nginx;%3E+Backend+%26+Caching+%2F%2F+Spring+Boot+%C2%B7+Redis+%C2%B7+SQL+Server+%C2%B7+React;%3E+Lab+Telemetry+%2F%2F+Suricata+IDS+%C2%B7+tshark+%C2%B7+Sysmon+%40+HCMUTE" alt="Animated typing bio">
   </picture>
 
   <p>
@@ -30,74 +30,72 @@
 
 <!-- 00 // WHOAMI -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/sec-about-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/sec-about-light.svg">
-  <img width="100%" src="./assets/sec-about-dark.svg" alt="00 whoami">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sec-about-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/sec-about-light.svg?v=3">
+  <img width="100%" src="./assets/sec-about-dark.svg?v=3" alt="00 whoami">
 </picture>
 
 <br><br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/about-light.svg">
-  <img width="100%" src="./assets/about-dark.svg" alt="const louis = { name: Khang Hoang Phuc, focus: Blue Team / SOC / Detection Engineering, ships_to: AWS EC2, Amazon RDS, Docker, Nginx, GitHub Actions }">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/about-light.svg?v=3">
+  <img width="100%" src="./assets/about-dark.svg?v=3" alt="const louis = { name: Khang Hoang Phuc, focus: Blue Team / SOC / Cloud &amp; DevOps, devops: AWS EC2 &amp; RDS, Kubernetes, Cloudflare, Docker, Nginx }">
 </picture>
 
 <br><br>
 
 <!-- 01 // FEATURED PROJECTS -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/sec-projects-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/sec-projects-light.svg">
-  <img width="100%" src="./assets/sec-projects-dark.svg" alt="01 Featured Projects">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sec-projects-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/sec-projects-light.svg?v=3">
+  <img width="100%" src="./assets/sec-projects-dark.svg?v=3" alt="01 Featured Projects">
 </picture>
 
 <br><br>
 
 <p align="center">
-  <a href="https://github.com/louishoang711/WISE"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-wise-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/card-wise-light.svg"><img width="48.5%" src="./assets/card-wise-dark.svg" alt="01 WISE · Wireless WIDS Lab"></picture></a>
+  <a href="https://github.com/louishoang711/WISE"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-wise-dark.svg?v=3"><source media="(prefers-color-scheme: light)" srcset="./assets/card-wise-light.svg?v=3"><img width="48.5%" src="./assets/card-wise-dark.svg?v=3" alt="01 WISE · Wireless WIDS Lab"></picture></a>
   &nbsp;
-  <a href="https://github.com/louishoang711/Purple-team-SOC-Lab"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-soc-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/card-soc-light.svg"><img width="48.5%" src="./assets/card-soc-dark.svg" alt="02 Purple Team SOC Lab"></picture></a>
+  <a href="https://github.com/louishoang711/Purple-team-SOC-Lab"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-soc-dark.svg?v=3"><source media="(prefers-color-scheme: light)" srcset="./assets/card-soc-light.svg?v=3"><img width="48.5%" src="./assets/card-soc-dark.svg?v=3" alt="02 Purple Team SOC Lab"></picture></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/ProjectWEB-Team/Project_WEB"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-web-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/card-web-light.svg"><img width="48.5%" src="./assets/card-web-dark.svg" alt="03 UTEExpress Logistics"></picture></a>
+  <a href="https://github.com/ProjectWEB-Team/Project_WEB"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-web-dark.svg?v=3"><source media="(prefers-color-scheme: light)" srcset="./assets/card-web-light.svg?v=3"><img width="48.5%" src="./assets/card-web-dark.svg?v=3" alt="03 UTEExpress Logistics"></picture></a>
   &nbsp;
-  <a href="https://github.com/anphan991/e-gov-signature-project"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-egov-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/card-egov-light.svg"><img width="48.5%" src="./assets/card-egov-dark.svg" alt="04 e-Gov Signature Portal"></picture></a>
+  <a href="https://github.com/anphan991/e-gov-signature-project"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-egov-dark.svg?v=3"><source media="(prefers-color-scheme: light)" srcset="./assets/card-egov-light.svg?v=3"><img width="48.5%" src="./assets/card-egov-dark.svg?v=3" alt="04 e-Gov Signature Portal"></picture></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/louishoang711/WISE/tree/main/docs/04-ket-qua"><img src="https://img.shields.io/badge/WISE-LAB%20RESULTS%20%E2%86%97-0F172A?style=flat-square&amp;labelColor=065F46&amp;logo=wireshark&amp;logoColor=A7F3D0" alt="WISE Lab results"></a>
   &nbsp;
   <a href="https://uteexpress.event5g.fun"><img src="https://img.shields.io/badge/UTEEXPRESS-LIVE%20ON%20AWS%20%E2%86%97-0F172A?style=flat-square&amp;labelColor=7C2D12&amp;logo=nginx&amp;logoColor=FED7AA" alt="UTEExpress Live on AWS"></a>
-  &nbsp;
-  <a href="https://github.com/louishoang711/spring-security-vd123"><img src="https://img.shields.io/badge/SPRING%20SECURITY-AUTH%20%26%20OTP%20LAB%20%E2%86%97-0F172A?style=flat-square&amp;labelColor=1E3A8A&amp;logo=springsecurity&amp;logoColor=BAE6FD" alt="Spring Security Auth Lab"></a>
 </p>
 
 <br>
 
 <!-- 02 // TECH STACK -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/sec-arsenal-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/sec-arsenal-light.svg">
-  <img width="100%" src="./assets/sec-arsenal-dark.svg" alt="02 Tech Stack">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sec-arsenal-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/sec-arsenal-light.svg?v=3">
+  <img width="100%" src="./assets/sec-arsenal-dark.svg?v=3" alt="02 Tech Stack">
 </picture>
 
 <br><br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/arsenal-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/arsenal-light.svg">
-  <img width="100%" src="./assets/arsenal-dark.svg" alt="01 Blue Team and SOC · 02 Cloud and DevOps · 03 Full-Stack and UI/UX">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/arsenal-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/arsenal-light.svg?v=3">
+  <img width="100%" src="./assets/arsenal-dark.svg?v=3" alt="01 Blue Team and SOC · 02 Cloud and DevOps · 03 Full-Stack and UI/UX">
 </picture>
 
 <br><br>
 
 <!-- 03 // GITHUB OVERVIEW -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/sec-activity-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/sec-activity-light.svg">
-  <img width="100%" src="./assets/sec-activity-dark.svg" alt="03 GitHub Overview">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sec-activity-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/sec-activity-light.svg?v=3">
+  <img width="100%" src="./assets/sec-activity-dark.svg?v=3" alt="03 GitHub Overview">
 </picture>
 
 <br><br>
@@ -126,7 +124,7 @@
 
 <!-- Footer Banner -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg">
-  <img width="100%" src="./assets/footer-dark.svg" alt="From wireless packets and cloud deployments to alerts I can investigate">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg?v=3">
+  <img width="100%" src="./assets/footer-dark.svg?v=3" alt="From wireless packets and cloud deployments to alerts I can investigate">
 </picture>

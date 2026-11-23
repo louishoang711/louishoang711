@@ -75,7 +75,7 @@
       <text x="14" y="21.5" class="mono" font-size="12.2" font-weight="600" fill="#16A34A">$</text>
       <text x="28" y="21.5" class="mono" font-size="12.2" font-weight="500" fill="#94A3B8">stack</text>
       <text x="74" y="21.5" class="mono" font-size="12.2" fill="#0284C7">▸</text>
-      <text x="90" y="21.5" class="mono" font-size="12.2" font-weight="500" fill="#0F172A">Wazuh · Suricata · tshark · AWS EC2/RDS · Docker · Spring · React</text>
+      <text x="90" y="21.5" class="mono" font-size="12.2" font-weight="500" fill="#0F172A">Wazuh · Suricata · AWS · Kubernetes · Cloudflare · Docker · Redis</text>
       <rect class="cursor" x="578" y="10" width="7.5" height="14" rx="1.5" fill="#16A34A"/>
     </g>
 
