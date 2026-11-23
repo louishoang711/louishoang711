@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 46" width="100%" role="img" aria-label="02 Security and Dev Arsenal">
   <defs>
     <linearGradient id="hGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0284C7">
-        <animate attributeName="stop-color" values="#0284C7;#059669;#4F46E5;#0284C7" dur="5s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#0F172A">
+        <animate attributeName="stop-color" values="#0F172A;#0369A1;#4F46E5;#0F172A" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#059669">
-        <animate attributeName="stop-color" values="#059669;#0284C7;#4F46E5;#059669" dur="5s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#0369A1">
+        <animate attributeName="stop-color" values="#0369A1;#4F46E5;#0F172A;#0369A1" dur="6s" repeatCount="indefinite"/>
       </stop>
       <stop offset="100%" stop-color="#4F46E5">
-        <animate attributeName="stop-color" values="#4F46E5;#059669;#0284C7;#4F46E5" dur="5s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#4F46E5;#0F172A;#0369A1;#4F46E5" dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
     <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -21,17 +21,23 @@
     </clipPath>
   </defs>
   <style>
-    .idx { font-family: 'JetBrains Mono', 'Fira Code', Consolas, ui-monospace, monospace; font-size: 13px; font-weight: 700; fill: #0284C7; letter-spacing: 1.5px; }
-    .ttl { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Arial, sans-serif; font-size: 19px; font-weight: 800; letter-spacing: 2.5px; }
-    .path { font-family: 'JetBrains Mono', 'Fira Code', Consolas, ui-monospace, monospace; font-size: 12px; font-weight: 600; fill: #475569; }
+    @font-face {
+      font-family: 'CinzelSec';
+      font-style: normal;
+      font-weight: 700;
+      src: url(data:font/woff2;base64,d09GMgABAAAAAAlkABAAAAAAEGAAAAkHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbgyYcKAZgP1NUQVQqAHQRCAqSdI9QCyIAATYCJANABCAFg2QHIAwHG4QNEQV9SKaRsnD+fhb/Tm1WkMj7HJfdFIFth0vkFNm6Y6mEbkrMgiP4Yn4+/Hfan7mTdDs3KsOKcanImyngJfj1xDySuW+/Vg+3Lh5C4+bvye6c+SLuyawRSZbu0X5DPLlE1UrIlcRTnGN+EWmos56btSYIQBA1VQo7QVQ0DZDEW2NURWMoXbv3jSCUP2LmZISgSco/GFXiY6ZPhrESJpEaFBiZ1B8M7G+1ZlSVNKQhYEC/zax/o95Afgshf5KfAfJr+f5ion/ln4Bs+Zn8AIr3y/XSrtjvO1IoLIryKF+xnx0Ol77TlL/lnySV5B65Q26C8X6UPxCDes9fs9H/wxBo9XJ95lKepZfryC+kJ3+Vf8oP5TN5L/GWX1rlchwuIZRqLNTagXzUWkcKVBhIxUJUBDajAEhBKgQMaNARBCfkUhcrKIsw7qKWEljuEZMbFFEd1T2KQi6/ScImkTJHuQy9hWIpmQD6LJzQUDSmunwl28t+6IiKfXZX6T+gfzdsR0Vkqc//X5oUqM9pZkVga8RJ6FflMkC4oREIFp81KQtlzrjxM4kRIKDopsEuB1QltarMNQxPaeFqOxoqojo6oRt6oS/6I4as8InAo4vr4B3I7+VX8rq8Ji/Li/KCPCtPk3Q9rE4gKVEodSvsUrF1b0BtA2iqrFoLDPWHGMUt4qnQH+ciHRpSkSNomlaItVDlihqzpmmaYRhGCrPGvMuMWVVmI8DcZsAao9KaGynhysGhkPZfEGKuUz9rQdq8kWmBYHwCD83cuGmPEGAybbIfVYhHczm+YduxbZSFII0QRy4I0yYESdjHZkQPOw57nkem7wvbbRVlz2PLcZBw3ajt+xlx23WRcBzm8rZt2zbZvk+m57FpWZbFJDTW82g2f63MMDavsmlRWMQ11ifUC1IOmMYVTcdEuIPt+1ViagtcbU4ZYDp3ixYG8+Xu5Jh979x4J25JN+orT7SnPLHpijBtAdZJwLLIupxOqB5F1NdwE21UsXjYrOjsXFQijksicUXYNoFpaDSPddOjSVpixybimC5gDkqYWMBKCceF7Z6XO+i650WtdQeOXCl14MqZamDL8+qvP3r0aDKcvFidbFvYj25V2LA57Hnd15+22EwmBRsQy0A4j9o8/xXj9p07Z0pEAK7E1ZXdeKVW9IJb0XHY8h7WTu46VUZsd90evk/mzdaxh16VXb4/Ip2J+exHIUSTEL6cKnGxJLSpiTj9HChOtO7MHRGJKwnXFWUxqUJJ+CjwSBUAPNjCtFP33g9t2qGX2M2IiSIvEhsmxq8tOFxQfNjmo8xIrftlg7z1of4e2Do8LCuSPUZhdZzI7J6zIWllCbYepw+PJZ8yk1gO510RQxlRCM0titvug1oXg74sdoqEGz3w5Em1J67bDKcdr//Bpy+fhl8+wiX+mB2OwwD2Njh17dG9GrXW7j+8vdwO9wXHYt8rnzzYxH8pWxsbzYDedSX0rnmN6n5WFyOedX9w+pmx6c6MzYuDAfYYAZQM/lT2LXXeH4N7Kb2qfRbwxLTPa1ev3XT3Mfq3JAxwew4Uf44XVYxDkV5tJlXtMw9nY6N2zJg6YufZjCUDF1fYi4OB0iPnRQYPnNav3bJRo1qvyB/Qi/pNaNRxRqERWHtp9qFIbkF+fm7Bocjs7wPlOrRtUPYhXGOeih19fRU7xjwupBbXW9K0CyJHI2ShO0QhgdrGkUJW3ayGGFwI4nsjRyNn9q/M1n1m0X6ulft1Ch3/veHZR6uLvXllrp+GlvfT2NxoI+nd0t9HGn/MnVP9xBIqNo59SOZVpa6gcuGxM+vdIQoJ1E69OVuEBLQLQrnYuG/h2lvMVFnkDlFGjHVDM4bxF7yP/dYm424uk6cx9fSaPtHyNb0xnJOnSGBUJap9qhIVkwDKO/ds2nccRfsClSIb9ks9uZ194PZfKHifIgGqYo51vss7CZelTp4VyL0bDC2JFl2+s0ybFXZWb/nLyjHB79Nf6jSv3U8Hy9sSrIatq3Kq8j4oeMFUTNkEqsldsEqZLyXOJgtehEbI2OySyNEIWRiYVcSEyxkRw/j7qJvVhIIGkfRU0qXPP98k2kpLffWN1Y4KhWTVx/evesvI5wsGdk0v14elf2ctSZU9yhXrW1uLb2qCs9GY3nT0hkV+U4/DWhLo1Am5pKXJOH7X3Ufv3slq12vX5S3dLzKNfsjOq0xdcUuC1m7QHso/hvII++KoSbR/adWhbcnJKyhw711O41hrRW1de6lpwPqY64Gwbdn6xq7JA42upeEH2VpW/o0ccaAZFHGQfyMntXsOvV4+DeYlep669bXYugfJiv/Crlh38oeqx+krW5/7MfE1kMjzzt/0k/iRP1Lig3j1nmcX7ZF8tWH1cstRS/nywJ+7C2+r2bM6LP3nWPcHKk0f+nweuU5e5zOk1MsiSz6e2cDHT8yQO/hH0yAWPVXgk/0/J3svZ1D5+43F9U0l1a3jc51NQW96T5vXXcyJhkbIlCL74APnuW8P9A5UjNUa8y02XWvSmnnJ8aP6Dp99YV7IMCDpSHOVFnpLCyPfdgXNWcva+Ifj4/N9HwdVurKAvsSpaGH5n659liSjX1Op4ln8plVMJDHvU9qHbu+T1f4Wy7JfHst6pvescrHuOxXFguj7/+8W+tkXwSBGjRiQOEa0gI++/9+3Qn/EcPNxzK8oJs9FP2XFMLC10JLl0DKboCUT0LIDSCPfwEAsKCKnIGXLkEfejH5K7o9+hL8BNh8aZ+LiMIs4LEWca2RDcFCsjX2YICpOPYsnN3EMxIhAzKG+DeJY6LE9TgA5FsYJoUZ7XAzksMRKUQ6xniGlGoACdwu1YQQTGMM4Fk8aL8Z8LEI1TOVcizCEhZjAfCzOqLGXDNc7DSPmYSHGYEIQDvhgxQRmsRIjmIYBFszDNIbRihEsVF5oHmaRgWIYYR516npldMB+Sw0CCCIAO2rcyhedEGot+XysCJUwATo0T8RloBnjGEEGrT2EhVXxJEYwpMqbsOQCALfpFyEDBReDj2EC3ewSDMKIIczDDEwIwAY3eFjBeSvsCMNEYi5ETDlT9DSKMax6FxPdcpNgDwAAAA==) format('woff2');
+    }
+    .idx { font-family: 'JetBrains Mono', 'Fira Code', Consolas, ui-monospace, monospace; font-size: 12.5px; font-weight: 700; fill: #0284C7; letter-spacing: 1.5px; }
+    .ttl { font-family: 'CinzelSec', 'Cinzel', Georgia, serif; font-size: 19.5px; font-weight: 700; letter-spacing: 3.2px; }
+    .path { font-family: 'JetBrains Mono', 'Fira Code', Consolas, ui-monospace, monospace; font-size: 11.5px; font-weight: 600; fill: #475569; }
     .dot { animation: p 2.2s ease-in-out infinite; transform-origin: 8px 20px; }
-    .scan { animation: slide 4.2s ease-in-out infinite; }
+    .scan { animation: slide 4.4s ease-in-out infinite; }
     @keyframes p { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
     @keyframes slide { 0% { transform: translateX(-220px); } 100% { transform: translateX(920px); } }
   </style>
-  <circle class="dot" cx="8" cy="20" r="4" fill="#0284C7"/>
+  <circle class="dot" cx="8" cy="20" r="3.5" fill="#0284C7"/>
   <text x="22" y="25" class="idx">02 //</text>
-  <text x="72" y="26" class="ttl" fill="url(#hGrad)">SECURITY &amp; DEV ARSENAL</text>
+  <text x="72" y="26.5" class="ttl" fill="url(#hGrad)">SECURITY &amp; DEV ARSENAL</text>
   <rect x="800" y="9" width="100" height="22" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
   <text x="850" y="24" text-anchor="middle" class="path">~/arsenal</text>
   <rect x="0" y="38" width="900" height="2" rx="1" fill="#E2E8F0"/>

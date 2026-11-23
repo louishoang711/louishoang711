@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 105" width="100%" role="img" aria-label="Footer - From wireless packets to alerts I can investigate">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="100%" role="img" aria-label="Footer - From wireless packets to alerts I can investigate">
   <defs>
     <linearGradient id="footBg" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#070B12"/>
@@ -6,62 +6,64 @@
       <stop offset="100%" stop-color="#071B18"/>
     </linearGradient>
     <linearGradient id="quoteGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#A7F3D0">
-        <animate attributeName="stop-color" values="#A7F3D0;#38BDF8;#34D399;#A7F3D0" dur="5s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#F8FAFC">
+        <animate attributeName="stop-color" values="#F8FAFC;#A7F3D0;#7DD3FC;#F8FAFC" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#34D399">
-        <animate attributeName="stop-color" values="#34D399;#A7F3D0;#38BDF8;#34D399" dur="5s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#A7F3D0">
+        <animate attributeName="stop-color" values="#A7F3D0;#7DD3FC;#F8FAFC;#A7F3D0" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#38BDF8">
-        <animate attributeName="stop-color" values="#38BDF8;#34D399;#A7F3D0;#38BDF8" dur="5s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#7DD3FC">
+        <animate attributeName="stop-color" values="#7DD3FC;#F8FAFC;#A7F3D0;#7DD3FC" dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
     <linearGradient id="waveStroke" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#10B981" stop-opacity="0"/>
-      <stop offset="30%" stop-color="#34D399" stop-opacity="0.85"/>
-      <stop offset="70%" stop-color="#38BDF8" stop-opacity="0.85"/>
+      <stop offset="0%" stop-color="#34D399" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#34D399" stop-opacity="0.75"/>
+      <stop offset="70%" stop-color="#38BDF8" stop-opacity="0.75"/>
       <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
     </linearGradient>
     <clipPath id="footClip">
-      <rect x="0" y="0" width="900" height="105" rx="14"/>
+      <rect x="0" y="0" width="900" height="110" rx="14"/>
     </clipPath>
   </defs>
   <style>
-    .quote {
-      font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, ui-monospace, monospace;
-      font-size: 14px;
+    @font-face {
+      font-family: 'CormorantFoot';
+      font-style: italic;
       font-weight: 600;
-      letter-spacing: 0.8px;
+      src: url(data:font/woff2;base64,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) format('woff2');
+    }
+    @font-face {
+      font-family: 'CinzelSign';
+      font-style: normal;
+      font-weight: 600;
+      src: url(data:font/woff2;base64,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) format('woff2');
+    }
+    .quote {
+      font-family: 'CormorantFoot', Georgia, 'Times New Roman', serif;
+      font-style: italic;
+      font-size: 23px;
+      font-weight: 600;
+      letter-spacing: 0.6px;
     }
     .sign {
-      font-family: 'JetBrains Mono', 'Fira Code', Consolas, ui-monospace, monospace;
+      font-family: 'CinzelSign', 'Cinzel', Georgia, serif;
       font-size: 10.5px;
-      letter-spacing: 2.2px;
+      font-weight: 600;
+      letter-spacing: 3.2px;
       fill: #64748B;
     }
-    .wave1 {
-      stroke-dasharray: 16 10;
-      animation: flow 3.5s linear infinite;
-    }
-    .wave2 {
-      stroke-dasharray: 10 12;
-      animation: flowRev 4.5s linear infinite;
-    }
-    @keyframes flow {
-      from { stroke-dashoffset: 52; }
-      to { stroke-dashoffset: 0; }
-    }
-    @keyframes flowRev {
-      from { stroke-dashoffset: 0; }
-      to { stroke-dashoffset: 44; }
-    }
+    .wave1 { stroke-dasharray: 16 10; animation: flow 3.6s linear infinite; }
+    .wave2 { stroke-dasharray: 10 12; animation: flowRev 4.6s linear infinite; }
+    @keyframes flow { from { stroke-dashoffset: 52; } to { stroke-dashoffset: 0; } }
+    @keyframes flowRev { from { stroke-dashoffset: 0; } to { stroke-dashoffset: 44; } }
   </style>
   <g clip-path="url(#footClip)">
-    <rect x="0" y="0" width="900" height="105" fill="url(#footBg)"/>
-    <path class="wave1" d="M 0 18 Q 225 4 450 18 T 900 18" fill="none" stroke="url(#waveStroke)" stroke-width="1.6"/>
-    <path class="wave2" d="M 0 88 Q 225 102 450 88 T 900 88" fill="none" stroke="url(#waveStroke)" stroke-width="1.4" opacity="0.65"/>
-    <text x="450" y="51" text-anchor="middle" class="quote" fill="url(#quoteGrad)">// "From wireless packets to alerts I can investigate."</text>
-    <text x="450" y="74" text-anchor="middle" class="sign">LOUIS · KHANG HOANG PHUC · SECURITY OPERATIONS</text>
-    <rect x="0.75" y="0.75" width="898.5" height="103.5" rx="13.5" fill="none" stroke="#34D399" stroke-opacity="0.22" stroke-width="1.2"/>
+    <rect x="0" y="0" width="900" height="110" fill="url(#footBg)"/>
+    <path class="wave1" d="M 0 18 Q 225 4 450 18 T 900 18" fill="none" stroke="url(#waveStroke)" stroke-width="1.5"/>
+    <path class="wave2" d="M 0 92 Q 225 106 450 92 T 900 92" fill="none" stroke="url(#waveStroke)" stroke-width="1.3" opacity="0.6"/>
+    <text x="450" y="54" text-anchor="middle" class="quote" fill="url(#quoteGrad)">"From wireless packets to alerts I can investigate."</text>
+    <text x="450" y="79" text-anchor="middle" class="sign">LOUIS · KHANG HOANG PHUC · SECURITY OPERATIONS</text>
+    <rect x="0.75" y="0.75" width="898.5" height="108.5" rx="13.5" fill="none" stroke="#34D399" stroke-opacity="0.22" stroke-width="1.2"/>
   </g>
 </svg>

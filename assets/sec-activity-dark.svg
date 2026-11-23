@@ -1,39 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 46" width="100%" role="img" aria-label="03 Live Telemetry and Activity">
   <defs>
     <linearGradient id="hGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#34D399">
-        <animate attributeName="stop-color" values="#34D399;#818CF8;#38BDF8;#34D399" dur="5s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#F1F5F9">
+        <animate attributeName="stop-color" values="#F1F5F9;#34D399;#38BDF8;#F1F5F9" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#38BDF8">
-        <animate attributeName="stop-color" values="#38BDF8;#34D399;#A7F3D0;#38BDF8" dur="5s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#34D399">
+        <animate attributeName="stop-color" values="#34D399;#38BDF8;#F1F5F9;#34D399" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#A7F3D0">
-        <animate attributeName="stop-color" values="#A7F3D0;#38BDF8;#818CF8;#A7F3D0" dur="5s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#38BDF8">
+        <animate attributeName="stop-color" values="#38BDF8;#F1F5F9;#34D399;#38BDF8" dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
     <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#34D399" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#A7F3D0" stop-opacity="0"/>
       <stop offset="50%" stop-color="#A7F3D0" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#34D399" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
     </linearGradient>
     <clipPath id="trackClip">
       <rect x="0" y="38" width="900" height="2" rx="1"/>
     </clipPath>
   </defs>
   <style>
-    .idx { font-family: 'JetBrains Mono', 'Fira Code', Consolas, ui-monospace, monospace; font-size: 13px; font-weight: 700; fill: #A7F3D0; letter-spacing: 1.5px; }
-    .ttl { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Arial, sans-serif; font-size: 19px; font-weight: 800; letter-spacing: 2.5px; }
-    .path { font-family: 'JetBrains Mono', 'Fira Code', Consolas, ui-monospace, monospace; font-size: 12px; font-weight: 600; fill: #64748B; }
+    @font-face {
+      font-family: 'CinzelSec';
+      font-style: normal;
+      font-weight: 700;
+      src: url(data:font/woff2;base64,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) format('woff2');
+    }
+    .idx { font-family: 'JetBrains Mono', 'Fira Code', Consolas, ui-monospace, monospace; font-size: 12.5px; font-weight: 700; fill: #A7F3D0; letter-spacing: 1.5px; }
+    .ttl { font-family: 'CinzelSec', 'Cinzel', Georgia, serif; font-size: 19.5px; font-weight: 700; letter-spacing: 3.2px; }
+    .path { font-family: 'JetBrains Mono', 'Fira Code', Consolas, ui-monospace, monospace; font-size: 11.5px; font-weight: 600; fill: #64748B; }
     .dot { animation: p 2.2s ease-in-out infinite; transform-origin: 8px 20px; }
-    .scan { animation: slide 4.6s ease-in-out infinite; }
+    .scan { animation: slide 4.8s ease-in-out infinite; }
     @keyframes p { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
     @keyframes slide { 0% { transform: translateX(-220px); } 100% { transform: translateX(920px); } }
   </style>
-  <circle class="dot" cx="8" cy="20" r="4" fill="#A7F3D0"/>
+  <circle class="dot" cx="8" cy="20" r="3.5" fill="#A7F3D0"/>
   <text x="22" y="25" class="idx">03 //</text>
-  <text x="72" y="26" class="ttl" fill="url(#hGrad)">LIVE TELEMETRY &amp; ACTIVITY</text>
-  <rect x="794" y="9" width="106" height="22" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
-  <text x="847" y="24" text-anchor="middle" class="path">~/activity</text>
+  <text x="72" y="26.5" class="ttl" fill="url(#hGrad)">LIVE TELEMETRY &amp; ACTIVITY</text>
+  <rect x="792" y="9" width="108" height="22" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <text x="846" y="24" text-anchor="middle" class="path">~/activity</text>
   <rect x="0" y="38" width="900" height="2" rx="1" fill="#1E293B"/>
   <g clip-path="url(#trackClip)">
     <rect class="scan" x="0" y="38" width="220" height="2" fill="url(#beam)"/>

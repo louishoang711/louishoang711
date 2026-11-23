@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 46" width="100%" role="img" aria-label="01 Featured Projects">
   <defs>
     <linearGradient id="hGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#A7F3D0">
-        <animate attributeName="stop-color" values="#A7F3D0;#38BDF8;#34D399;#A7F3D0" dur="5s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#F1F5F9">
+        <animate attributeName="stop-color" values="#F1F5F9;#A7F3D0;#38BDF8;#F1F5F9" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#34D399">
-        <animate attributeName="stop-color" values="#34D399;#A7F3D0;#38BDF8;#34D399" dur="5s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#A7F3D0">
+        <animate attributeName="stop-color" values="#A7F3D0;#38BDF8;#F1F5F9;#A7F3D0" dur="6s" repeatCount="indefinite"/>
       </stop>
       <stop offset="100%" stop-color="#38BDF8">
-        <animate attributeName="stop-color" values="#38BDF8;#34D399;#A7F3D0;#38BDF8" dur="5s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#38BDF8;#F1F5F9;#A7F3D0;#38BDF8" dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
     <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -21,19 +21,25 @@
     </clipPath>
   </defs>
   <style>
-    .idx { font-family: 'JetBrains Mono', 'Fira Code', Consolas, ui-monospace, monospace; font-size: 13px; font-weight: 700; fill: #34D399; letter-spacing: 1.5px; }
-    .ttl { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Arial, sans-serif; font-size: 19px; font-weight: 800; letter-spacing: 2.5px; }
-    .path { font-family: 'JetBrains Mono', 'Fira Code', Consolas, ui-monospace, monospace; font-size: 12px; font-weight: 600; fill: #64748B; }
+    @font-face {
+      font-family: 'CinzelSec';
+      font-style: normal;
+      font-weight: 700;
+      src: url(data:font/woff2;base64,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) format('woff2');
+    }
+    .idx { font-family: 'JetBrains Mono', 'Fira Code', Consolas, ui-monospace, monospace; font-size: 12.5px; font-weight: 700; fill: #34D399; letter-spacing: 1.5px; }
+    .ttl { font-family: 'CinzelSec', 'Cinzel', Georgia, serif; font-size: 19.5px; font-weight: 700; letter-spacing: 3.2px; }
+    .path { font-family: 'JetBrains Mono', 'Fira Code', Consolas, ui-monospace, monospace; font-size: 11.5px; font-weight: 600; fill: #64748B; }
     .dot { animation: p 2.2s ease-in-out infinite; transform-origin: 8px 20px; }
-    .scan { animation: slide 3.8s ease-in-out infinite; }
+    .scan { animation: slide 4.0s ease-in-out infinite; }
     @keyframes p { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
     @keyframes slide { 0% { transform: translateX(-220px); } 100% { transform: translateX(920px); } }
   </style>
-  <circle class="dot" cx="8" cy="20" r="4" fill="#34D399"/>
+  <circle class="dot" cx="8" cy="20" r="3.5" fill="#34D399"/>
   <text x="22" y="25" class="idx">01 //</text>
-  <text x="72" y="26" class="ttl" fill="url(#hGrad)">FEATURED PROJECTS</text>
-  <rect x="794" y="9" width="106" height="22" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
-  <text x="847" y="24" text-anchor="middle" class="path">~/projects</text>
+  <text x="72" y="26.5" class="ttl" fill="url(#hGrad)">FEATURED PROJECTS</text>
+  <rect x="792" y="9" width="108" height="22" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <text x="846" y="24" text-anchor="middle" class="path">~/projects</text>
   <rect x="0" y="38" width="900" height="2" rx="1" fill="#1E293B"/>
   <g clip-path="url(#trackClip)">
     <rect class="scan" x="0" y="38" width="220" height="2" fill="url(#beam)"/>
