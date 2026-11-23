@@ -39,76 +39,51 @@
 
 <br><br>
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <p>
-        <strong><a href="https://github.com/louishoang711/WISE">WISE · Wireless Detection Lab</a></strong><br>
-        <sub>Isolated Wi-Fi security lab capturing 802.11 wireless frames with <code>tshark</code> and correlating suspicious device activity into actionable <code>Wazuh</code> alerts.</sub>
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/DETECTION-065F46?style=flat-square&amp;logo=wireshark&amp;logoColor=A7F3D0" alt="DETECTION">
-        <img src="https://img.shields.io/badge/WAZUH-0C4A6E?style=flat-square&amp;logoColor=38BDF8" alt="WAZUH">
-        <img src="https://img.shields.io/badge/TSHARK-1E293B?style=flat-square" alt="TSHARK">
-      </p>
-      <p>
-        <a href="https://github.com/louishoang711/WISE">Repository ↗</a> &nbsp;·&nbsp; <a href="https://github.com/louishoang711/WISE/tree/main/docs/04-ket-qua">Lab results ↗</a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <p>
-        <strong><a href="https://github.com/louishoang711/Purple-team-SOC-Lab">Purple Team SOC Lab</a></strong><br>
-        <sub>Hands-on Security Operations lab built for continuous monitoring, attack simulation telemetry, and blue-team alert triage practice.</sub>
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/SOC_LAB-4C1D95?style=flat-square&amp;logoColor=DDD6FE" alt="SOC LAB">
-        <img src="https://img.shields.io/badge/PURPLE_TEAM-312E81?style=flat-square" alt="PURPLE TEAM">
-        <img src="https://img.shields.io/badge/SIEM-1E293B?style=flat-square" alt="SIEM">
-      </p>
-      <p>
-        <a href="https://github.com/louishoang711/Purple-team-SOC-Lab">Repository ↗</a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <p>
-        <strong><a href="https://github.com/anphan991/e-gov-signature-project">e-Gov Signature Project</a></strong><br>
-        <sub>Digital signature prototype for signing and verifying PDF documents in public administrative workflows with cryptographic integrity checks.</sub>
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/CRYPTOGRAPHY-075985?style=flat-square&amp;logo=letsencrypt&amp;logoColor=BAE6FD" alt="CRYPTOGRAPHY">
-        <img src="https://img.shields.io/badge/PDF_SIGNING-1E293B?style=flat-square" alt="PDF SIGNING">
-      </p>
-      <p>
-        <a href="https://github.com/anphan991/e-gov-signature-project">Repository ↗</a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <p>
-        <strong><a href="https://github.com/ProjectWEB-Team/Project_WEB">Project WEB</a></strong><br>
-        <sub>Collaborative Java web application developed with structured MVC architecture, authentication flows, and team version control.</sub>
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/JAVA-7C2D12?style=flat-square&amp;logo=openjdk&amp;logoColor=FED7AA" alt="JAVA">
-        <img src="https://img.shields.io/badge/WEB_APP-1E293B?style=flat-square" alt="WEB APP">
-      </p>
-      <p>
-        <a href="https://github.com/ProjectWEB-Team/Project_WEB">Repository ↗</a> &nbsp;·&nbsp; <a href="https://github.com/louishoang711/spring-security-vd123">Spring Security Lab ↗</a>
-      </p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/louishoang711/WISE">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/card-wise-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/card-wise-light.svg">
+      <img width="48.5%" src="./assets/card-wise-dark.svg" alt="WISE · Wireless Detection Lab">
+    </picture>
+  </a>
+  &nbsp;
+  <a href="https://github.com/louishoang711/Purple-team-SOC-Lab">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/card-soc-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/card-soc-light.svg">
+      <img width="48.5%" src="./assets/card-soc-dark.svg" alt="Purple Team SOC Lab">
+    </picture>
+  </a>
+</p>
 
-<details open>
-  <summary><code>▸ WISE Detection Pipeline — How packets become alerts</code></summary>
-  <br>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/wise-pipeline-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/wise-pipeline-light.svg">
-    <img width="100%" src="./assets/wise-pipeline-dark.svg" alt="WISE Detection Pipeline: tshark Capture to Wazuh SIEM Detect to Alert Evidence Triage">
-  </picture>
-</details>
+<p align="center">
+  <a href="https://github.com/anphan991/e-gov-signature-project">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/card-egov-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/card-egov-light.svg">
+      <img width="48.5%" src="./assets/card-egov-dark.svg" alt="e-Gov Signature Project">
+    </picture>
+  </a>
+  &nbsp;
+  <a href="https://github.com/ProjectWEB-Team/Project_WEB">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/card-web-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/card-web-light.svg">
+      <img width="48.5%" src="./assets/card-web-dark.svg" alt="Project WEB">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/louishoang711/WISE/tree/main/docs/04-ket-qua">
+    <img src="https://img.shields.io/badge/WISE-LAB%20RESULTS%20%E2%86%97-0F172A?style=flat-square&amp;labelColor=065F46&amp;logo=wireshark&amp;logoColor=A7F3D0" alt="WISE Lab results">
+  </a>
+  &nbsp;
+  <a href="https://github.com/louishoang711/spring-security-vd123">
+    <img src="https://img.shields.io/badge/SPRING%20SECURITY-AUTH%20LAB%20%E2%86%97-0F172A?style=flat-square&amp;labelColor=7C2D12&amp;logo=springsecurity&amp;logoColor=FED7AA" alt="Spring Security Auth Lab">
+  </a>
+</p>
 
 <br>
 
