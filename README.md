@@ -66,12 +66,6 @@
   <a href="https://github.com/anphan991/e-gov-signature-project"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-egov-dark.svg?v=4"><source media="(prefers-color-scheme: light)" srcset="./assets/card-egov-light.svg?v=4"><img width="48.5%" src="./assets/card-egov-dark.svg?v=4" alt="04 e-Gov Signature Portal"></picture></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/louishoang711/WISE/tree/main/docs/04-ket-qua"><img src="https://img.shields.io/badge/WISE-LAB%20RESULTS%20%E2%86%97-065F46?style=flat-square&amp;labelColor=0F172A&amp;logo=wireshark&amp;logoColor=38BDF8" alt="WISE Lab results"></a>
-  &nbsp;
-  <a href="https://uteexpress.event5g.fun"><img src="https://img.shields.io/badge/UTEEXPRESS-LIVE%20ON%20AWS%20%E2%86%97-7C2D12?style=flat-square&amp;labelColor=0F172A&amp;logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMSAyNCAxOSI%2BPHRleHQgeD0iMTIiIHk9IjEyLjIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zaXplPSIxMS44IiBsZXR0ZXItc3BhY2luZz0iLTAuNCIgZmlsbD0iI0ZGRkZGRiI%2BYXdzPC90ZXh0PjxwYXRoIGZpbGw9IiNGRjk5MDAiIGQ9Ik0yMS43IDE2LjJjLTIuNiAxLjktNi40IDMtOS43IDMtNC42IDAtOC43LTEuNy0xMS45LTQuNS0uMi0uMiAwLS41LjMtLjQgMy40IDIgNy42IDMuMiAxMS45IDMuMiAyLjkgMCA2LjEtLjYgOS4xLTEuOS40LS4yLjguMy4zLjZ6bTEuMS0xLjJjLS4zLS40LTIuMi0uMi0zLjEtLjEtLjMgMC0uMy0uMi0uMS0uNCAxLjUtMS4xIDQtLjggNC4zLS40LjMuNC0uMSAyLjgtMS41IDQtLjIuMi0uNC4xLS4zLS4yLjMtLjggMS0yLjYuNy0zeiIvPjwvc3ZnPg%3D%3D" alt="UTEExpress Live on AWS"></a>
-</p>
-
 <br>
 
 <!-- 02 // TECH STACK -->
