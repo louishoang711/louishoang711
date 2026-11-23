@@ -30,9 +30,9 @@
   <text x="64" y="44" class="ttl">Purple Team SOC Lab</text>
 
   <!-- Clean regular sans-serif description -->
-  <text x="64" y="73" class="desc">Detection-as-Code home SOC lab validating Sigma</text>
-  <text x="64" y="93" class="desc">rules against Active Directory attacks with Suricata.</text>
+  <text x="64" y="73" class="desc">Home SOC lab integrating Wazuh SIEM, Suricata IDS</text>
+  <text x="64" y="93" class="desc">&amp; Sysmon telemetry across Active Directory VMs.</text>
 
   <!-- Green tech stack line at bottom -->
-  <text x="64" y="131" class="tech">Wazuh  ·  Suricata IDS  ·  Sysmon  ·  Sigma  ·  AD</text>
+  <text x="64" y="131" class="tech">Wazuh  ·  Suricata IDS  ·  Sysmon  ·  AD  ·  VMware</text>
 </svg>
