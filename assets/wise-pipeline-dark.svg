@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 156" width="100%" role="img" aria-label="WISE Wireless Detection Pipeline: Capture with tshark, Detect with Wazuh, Review alert evidence">
+  <defs>
+    <linearGradient id="pipeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080D14"/>
+      <stop offset="100%" stop-color="#0B1819"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F1C2A"/>
+      <stop offset="100%" stop-color="#0C1821"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2220"/>
+      <stop offset="100%" stop-color="#0D1C26"/>
+    </linearGradient>
+    <linearGradient id="card3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14182D"/>
+      <stop offset="100%" stop-color="#0D1724"/>
+    </linearGradient>
+    <linearGradient id="flowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+    <filter id="orbGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="pipeClip">
+      <rect x="0" y="0" width="900" height="156" rx="14"/>
+    </clipPath>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, ui-monospace, monospace; }
+    .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Arial, sans-serif; }
+    .wire {
+      stroke-dasharray: 6 6;
+      animation: wireFlow 1.4s linear infinite;
+    }
+    @keyframes wireFlow {
+      from { stroke-dashoffset: 24; }
+      to { stroke-dashoffset: 0; }
+    }
+  </style>
+  <g clip-path="url(#pipeClip)">
+    <rect x="0" y="0" width="900" height="156" fill="url(#pipeBg)"/>
+
+    <!-- Title bar -->
+    <text x="26" y="28" class="mono" font-size="10.5" font-weight="700" letter-spacing="2" fill="#34D399">WISE // WIRELESS DETECTION PIPELINE</text>
+    <text x="874" y="28" text-anchor="end" class="mono" font-size="10" letter-spacing="1.4" fill="#64748B">ISOLATED WI-FI LAB</text>
+
+    <!-- Connector 1 -> 2 -->
+    <line class="wire" x1="274" y1="90" x2="334" y2="90" stroke="#38BDF8" stroke-width="2"/>
+    <polygon points="334,85 343,90 334,95" fill="#34D399"/>
+    <circle r="4" fill="#38BDF8" filter="url(#orbGlow)">
+      <animateMotion dur="1.8s" repeatCount="indefinite" path="M 274 90 L 336 90"/>
+    </circle>
+
+    <!-- Connector 2 -> 3 -->
+    <line class="wire" x1="566" y1="90" x2="626" y2="90" stroke="#34D399" stroke-width="2"/>
+    <polygon points="626,85 635,90 626,95" fill="#818CF8"/>
+    <circle r="4" fill="#34D399" filter="url(#orbGlow)">
+      <animateMotion dur="1.8s" begin="0.9s" repeatCount="indefinite" path="M 566 90 L 628 90"/>
+    </circle>
+
+    <!-- Stage 1: Capture -->
+    <g transform="translate(26, 46)">
+      <rect x="0" y="0" width="246" height="88" rx="10" fill="url(#card1)" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="1.2"/>
+      <rect x="14" y="13" width="84" height="18" rx="4" fill="#0C2A3E"/>
+      <text x="56" y="25" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" letter-spacing="1.2" fill="#38BDF8">01 · CAPTURE</text>
+      <text x="14" y="53" class="sans" font-size="16" font-weight="700" fill="#F1F5F9">tshark Sniffing</text>
+      <text x="14" y="73" class="mono" font-size="11" fill="#94A3B8">802.11 wireless frames</text>
+    </g>
+
+    <!-- Stage 2: Detect -->
+    <g transform="translate(344, 46)">
+      <rect x="0" y="0" width="220" height="88" rx="10" fill="url(#card2)" stroke="#34D399" stroke-opacity="0.55" stroke-width="1.4"/>
+      <rect x="14" y="13" width="80" height="18" rx="4" fill="#0B3328"/>
+      <text x="54" y="25" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" letter-spacing="1.2" fill="#34D399">02 · DETECT</text>
+      <text x="14" y="53" class="sans" font-size="16" font-weight="700" fill="#F1F5F9">Wazuh SIEM</text>
+      <text x="14" y="73" class="mono" font-size="11" fill="#94A3B8">Rule matching &amp; alerts</text>
+    </g>
+
+    <!-- Stage 3: Triage -->
+    <g transform="translate(636, 46)">
+      <rect x="0" y="0" width="238" height="88" rx="10" fill="url(#card3)" stroke="#818CF8" stroke-opacity="0.45" stroke-width="1.2"/>
+      <rect x="14" y="13" width="80" height="18" rx="4" fill="#1E1F46"/>
+      <text x="54" y="25" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" letter-spacing="1.2" fill="#A5B4FC">03 · TRIAGE</text>
+      <text x="14" y="53" class="sans" font-size="16" font-weight="700" fill="#F1F5F9">Alert Evidence</text>
+      <text x="14" y="73" class="mono" font-size="11" fill="#94A3B8">Packet-to-alert trace</text>
+    </g>
+
+    <rect x="0.75" y="0.75" width="898.5" height="154.5" rx="13.5" fill="none" stroke="#1E293B" stroke-width="1.2"/>
+  </g>
+</svg>

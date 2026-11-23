@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 105" width="100%" role="img" aria-label="Footer - From wireless packets to alerts I can investigate">
+  <defs>
+    <linearGradient id="footBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="50%" stop-color="#ECFDF5"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+    <linearGradient id="quoteGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#065F46">
+        <animate attributeName="stop-color" values="#065F46;#0284C7;#059669;#065F46" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#059669">
+        <animate attributeName="stop-color" values="#059669;#065F46;#0284C7;#059669" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#0284C7">
+        <animate attributeName="stop-color" values="#0284C7;#059669;#065F46;#0284C7" dur="5s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="waveStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#059669" stop-opacity="0.7"/>
+      <stop offset="70%" stop-color="#0284C7" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="footClip">
+      <rect x="0" y="0" width="900" height="105" rx="14"/>
+    </clipPath>
+  </defs>
+  <style>
+    .quote {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, ui-monospace, monospace;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+    }
+    .sign {
+      font-family: 'JetBrains Mono', 'Fira Code', Consolas, ui-monospace, monospace;
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 2.2px;
+      fill: #64748B;
+    }
+    .wave1 {
+      stroke-dasharray: 16 10;
+      animation: flow 3.5s linear infinite;
+    }
+    .wave2 {
+      stroke-dasharray: 10 12;
+      animation: flowRev 4.5s linear infinite;
+    }
+    @keyframes flow {
+      from { stroke-dashoffset: 52; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes flowRev {
+      from { stroke-dashoffset: 0; }
+      to { stroke-dashoffset: 44; }
+    }
+  </style>
+  <g clip-path="url(#footClip)">
+    <rect x="0" y="0" width="900" height="105" fill="url(#footBg)"/>
+    <path class="wave1" d="M 0 18 Q 225 4 450 18 T 900 18" fill="none" stroke="url(#waveStroke)" stroke-width="1.6"/>
+    <path class="wave2" d="M 0 88 Q 225 102 450 88 T 900 88" fill="none" stroke="url(#waveStroke)" stroke-width="1.4" opacity="0.65"/>
+    <text x="450" y="51" text-anchor="middle" class="quote" fill="url(#quoteGrad)">// "From wireless packets to alerts I can investigate."</text>
+    <text x="450" y="74" text-anchor="middle" class="sign">LOUIS · KHANG HOANG PHUC · SECURITY OPERATIONS</text>
+    <rect x="0.75" y="0.75" width="898.5" height="103.5" rx="13.5" fill="none" stroke="#CBD5E1" stroke-width="1.2"/>
+  </g>
+</svg>

@@ -26,8 +26,8 @@ jobs:
         with:
           github_user_name: louishoang711
           outputs: |
-            dist/snake.svg?palette=github-light&color_snake=%238b454c&color_dots=%23edf0ed,%23cddbcc,%23a4bca3,%23708d71,%23456048
-            dist/snake-dark.svg?palette=github-dark&color_snake=%23d78388&color_dots=%23212421,%232f3b31,%23485d48,%23738b70,%23acc2a5
+            dist/snake.svg?palette=github-light&color_snake=%230284c7&color_dots=%23f1f5f9,%23bbf7d0,%236ee7b7,%2310b981,%23047857
+            dist/snake-dark.svg?palette=github-dark&color_snake=%2338bdf8&color_dots=%230f172a,%23064e3b,%23047857,%2310b981,%2334d399
       - name: Publish animated images
         uses: peaceiris/actions-gh-pages@v4
         with:

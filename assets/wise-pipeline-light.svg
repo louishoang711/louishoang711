@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 156" width="100%" role="img" aria-label="WISE Wireless Detection Pipeline: Capture with tshark, Detect with Wazuh, Review alert evidence">
+  <defs>
+    <linearGradient id="pipeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#ECFDF5"/>
+    </linearGradient>
+    <clipPath id="pipeClip">
+      <rect x="0" y="0" width="900" height="156" rx="14"/>
+    </clipPath>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, ui-monospace, monospace; }
+    .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Arial, sans-serif; }
+    .wire {
+      stroke-dasharray: 6 6;
+      animation: wireFlow 1.4s linear infinite;
+    }
+    @keyframes wireFlow {
+      from { stroke-dashoffset: 24; }
+      to { stroke-dashoffset: 0; }
+    }
+  </style>
+  <g clip-path="url(#pipeClip)">
+    <rect x="0" y="0" width="900" height="156" fill="url(#pipeBg)"/>
+
+    <text x="26" y="28" class="mono" font-size="10.5" font-weight="700" letter-spacing="2" fill="#059669">WISE // WIRELESS DETECTION PIPELINE</text>
+    <text x="874" y="28" text-anchor="end" class="mono" font-size="10" font-weight="600" letter-spacing="1.4" fill="#64748B">ISOLATED WI-FI LAB</text>
+
+    <!-- Connector 1 -> 2 -->
+    <line class="wire" x1="274" y1="90" x2="334" y2="90" stroke="#0284C7" stroke-width="2"/>
+    <polygon points="334,85 343,90 334,95" fill="#059669"/>
+    <circle r="4" fill="#0284C7">
+      <animateMotion dur="1.8s" repeatCount="indefinite" path="M 274 90 L 336 90"/>
+    </circle>
+
+    <!-- Connector 2 -> 3 -->
+    <line class="wire" x1="566" y1="90" x2="626" y2="90" stroke="#059669" stroke-width="2"/>
+    <polygon points="626,85 635,90 626,95" fill="#4F46E5"/>
+    <circle r="4" fill="#059669">
+      <animateMotion dur="1.8s" begin="0.9s" repeatCount="indefinite" path="M 566 90 L 628 90"/>
+    </circle>
+
+    <!-- Stage 1 -->
+    <g transform="translate(26, 46)">
+      <rect x="0" y="0" width="246" height="88" rx="10" fill="#FFFFFF" stroke="#0284C7" stroke-opacity="0.4" stroke-width="1.2"/>
+      <rect x="14" y="13" width="84" height="18" rx="4" fill="#E0F2FE"/>
+      <text x="56" y="25" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" letter-spacing="1.2" fill="#0369A1">01 · CAPTURE</text>
+      <text x="14" y="53" class="sans" font-size="16" font-weight="700" fill="#0F172A">tshark Sniffing</text>
+      <text x="14" y="73" class="mono" font-size="11" fill="#475569">802.11 wireless frames</text>
+    </g>
+
+    <!-- Stage 2 -->
+    <g transform="translate(344, 46)">
+      <rect x="0" y="0" width="220" height="88" rx="10" fill="#FFFFFF" stroke="#059669" stroke-opacity="0.5" stroke-width="1.4"/>
+      <rect x="14" y="13" width="80" height="18" rx="4" fill="#D1FAE5"/>
+      <text x="54" y="25" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" letter-spacing="1.2" fill="#047857">02 · DETECT</text>
+      <text x="14" y="53" class="sans" font-size="16" font-weight="700" fill="#0F172A">Wazuh SIEM</text>
+      <text x="14" y="73" class="mono" font-size="11" fill="#475569">Rule matching &amp; alerts</text>
+    </g>
+
+    <!-- Stage 3 -->
+    <g transform="translate(636, 46)">
+      <rect x="0" y="0" width="238" height="88" rx="10" fill="#FFFFFF" stroke="#4F46E5" stroke-opacity="0.4" stroke-width="1.2"/>
+      <rect x="14" y="13" width="80" height="18" rx="4" fill="#E0E7FF"/>
+      <text x="54" y="25" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" letter-spacing="1.2" fill="#4338CA">03 · TRIAGE</text>
+      <text x="14" y="53" class="sans" font-size="16" font-weight="700" fill="#0F172A">Alert Evidence</text>
+      <text x="14" y="73" class="mono" font-size="11" fill="#475569">Packet-to-alert trace</text>
+    </g>
+
+    <rect x="0.75" y="0.75" width="898.5" height="154.5" rx="13.5" fill="none" stroke="#CBD5E1" stroke-width="1.2"/>
+  </g>
+</svg>

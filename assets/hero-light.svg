@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 270" width="100%" role="img" aria-label="Louis - Khang Hoang Phuc - Security Operations and Blue Team">
+  <defs>
+    <!-- Crisp light cyber-mint background -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="52%" stop-color="#ECFDF5"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+
+    <!-- Animated holographic gradient for main title -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#065F46">
+        <animate attributeName="stop-color" values="#065F46;#0284C7;#059669;#4F46E5;#065F46" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#059669">
+        <animate attributeName="stop-color" values="#059669;#065F46;#0284C7;#059669;#059669" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#0284C7">
+        <animate attributeName="stop-color" values="#0284C7;#4F46E5;#065F46;#0284C7;#0284C7" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#059669" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#0284C7" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="ambientGlow" cx="25%" cy="48%" r="45%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.14"/>
+      <stop offset="60%" stop-color="#0EA5E9" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="radarGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.18"/>
+      <stop offset="70%" stop-color="#0284C7" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="cyberGrid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#059669" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+
+    <clipPath id="cardClip">
+      <rect x="0" y="0" width="900" height="270" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .title-main {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 900;
+      font-size: 74px;
+      letter-spacing: 10px;
+    }
+    .title-glitch-cyan {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 900;
+      font-size: 74px;
+      letter-spacing: 10px;
+      fill: #0284C7;
+      opacity: 0;
+      animation: glitchCyan 5.5s infinite;
+    }
+    .title-glitch-mint {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 900;
+      font-size: 74px;
+      letter-spacing: 10px;
+      fill: #059669;
+      opacity: 0;
+      animation: glitchMint 5.5s infinite;
+    }
+    .title-stroke {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 900;
+      font-size: 74px;
+      letter-spacing: 10px;
+      fill: none;
+      stroke: #0284C7;
+      stroke-width: 1.1;
+      stroke-dasharray: 42 180;
+      stroke-opacity: 0.65;
+      animation: edgeShimmer 4.5s linear infinite;
+    }
+    @keyframes edgeShimmer {
+      from { stroke-dashoffset: 222; }
+      to { stroke-dashoffset: 0; }
+    }
+    .subtitle {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, ui-monospace, monospace;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 3.5px;
+      fill: #475569;
+      animation: subBreath 4s ease-in-out infinite;
+    }
+    @keyframes subBreath {
+      0%, 100% { fill: #475569; letter-spacing: 3.5px; }
+      50% { fill: #0F172A; letter-spacing: 4.1px; }
+    }
+    .mono {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, ui-monospace, monospace;
+    }
+    .cursor {
+      animation: blink 1s steps(2, start) infinite;
+    }
+    .pulse-dot {
+      animation: pulseDot 2.2s ease-in-out infinite;
+    }
+    .scan-bar {
+      animation: scanMove 6s linear infinite;
+    }
+    .radar-sweep {
+      transform-origin: 740px 135px;
+      animation: spin 7s linear infinite;
+    }
+    .wave-flow {
+      stroke-dasharray: 12 8;
+      animation: dashFlow 2.4s linear infinite;
+    }
+    .float-slow {
+      animation: floatY 4.5s ease-in-out infinite;
+    }
+
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes pulseDot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(0.82); }
+    }
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes dashFlow {
+      from { stroke-dashoffset: 40; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes scanMove {
+      0% { transform: translateY(-20px); opacity: 0; }
+      10% { opacity: 0.35; }
+      90% { opacity: 0.35; }
+      100% { transform: translateY(290px); opacity: 0; }
+    }
+    @keyframes floatY {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-4px); }
+    }
+    @keyframes glitchCyan {
+      0%, 88%, 100% { opacity: 0; transform: translate(0, 0); }
+      89% { opacity: 0.45; transform: translate(-3px, -1px); }
+      91% { opacity: 0; transform: translate(0, 0); }
+      92% { opacity: 0.35; transform: translate(2px, 1px); }
+      94% { opacity: 0; transform: translate(0, 0); }
+    }
+    @keyframes glitchMint {
+      0%, 88%, 100% { opacity: 0; transform: translate(0, 0); }
+      90% { opacity: 0.4; transform: translate(3px, 1px); }
+      92% { opacity: 0; transform: translate(0, 0); }
+      93% { opacity: 0.3; transform: translate(-2px, -1px); }
+      95% { opacity: 0; transform: translate(0, 0); }
+    }
+  </style>
+
+  <g clip-path="url(#cardClip)">
+    <rect x="0" y="0" width="900" height="270" fill="url(#bgGrad)"/>
+    <rect x="0" y="0" width="900" height="270" fill="url(#cyberGrid)"/>
+    <rect x="0" y="0" width="900" height="270" fill="url(#ambientGlow)"/>
+
+    <rect class="scan-bar" x="0" y="0" width="900" height="2" fill="url(#lineGrad)"/>
+
+    <!-- Corner HUD brackets -->
+    <path d="M 22 40 L 22 22 L 40 22" fill="none" stroke="#059669" stroke-width="2" stroke-opacity="0.55"/>
+    <path d="M 878 40 L 878 22 L 860 22" fill="none" stroke="#0284C7" stroke-width="2" stroke-opacity="0.55"/>
+    <path d="M 22 230 L 22 248 L 40 248" fill="none" stroke="#059669" stroke-width="2" stroke-opacity="0.55"/>
+    <path d="M 878 230 L 878 248 L 860 248" fill="none" stroke="#0284C7" stroke-width="2" stroke-opacity="0.55"/>
+
+    <!-- Top status badge -->
+    <g transform="translate(52, 36)">
+      <rect x="0" y="0" width="212" height="26" rx="13" fill="#FFFFFF" stroke="#059669" stroke-opacity="0.35" stroke-width="1"/>
+      <circle class="pulse-dot" cx="16" cy="13" r="4" fill="#059669" style="transform-origin: 16px 13px;"/>
+      <text x="29" y="17" class="mono" font-size="10.5" font-weight="700" letter-spacing="1.6" fill="#065F46">BLUE TEAM · SOC ACTIVE</text>
+    </g>
+
+    <text x="854" y="38" text-anchor="end" class="mono" font-size="10" letter-spacing="1.4" fill="#64748B">10.8505° N · 106.7717° E // HCMC</text>
+
+    <!-- Hero Typography -->
+    <g transform="translate(52, 146)">
+      <text class="title-glitch-cyan" x="0" y="0">LOUIS</text>
+      <text class="title-glitch-mint" x="0" y="0">LOUIS</text>
+      <text class="title-main" x="0" y="0" fill="url(#titleGrad)">LOUIS</text>
+      <text class="title-stroke" x="0" y="0">LOUIS</text>
+    </g>
+
+    <text x="55" y="178" class="subtitle">KHANG HOANG PHUC  ·  @LOUISHOANG711</text>
+
+    <rect x="52" y="192" width="466" height="2" fill="url(#lineGrad)" rx="1"/>
+
+    <!-- Terminal prompt pill -->
+    <g transform="translate(52, 208)">
+      <rect x="0" y="0" width="466" height="32" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="14" y="20" class="mono" font-size="12.5" font-weight="700" fill="#059669">$</text>
+      <text x="29" y="20" class="mono" font-size="12.5" font-weight="600" fill="#334155">whoami</text>
+      <text x="86" y="20" class="mono" font-size="12.5" fill="#0284C7">▸</text>
+      <text x="104" y="20" class="mono" font-size="12.5" fill="#0F172A">Security Operations · Packet Triage · HCMUTE</text>
+      <rect class="cursor" x="444" y="9" width="8" height="14" rx="1.5" fill="#059669"/>
+    </g>
+
+    <!-- Right-side animated SOC Radar -->
+    <g>
+      <circle cx="740" cy="135" r="88" fill="url(#radarGlow)"/>
+      <circle cx="740" cy="135" r="78" fill="none" stroke="#059669" stroke-opacity="0.28" stroke-width="1" stroke-dasharray="4 4"/>
+      <circle cx="740" cy="135" r="54" fill="none" stroke="#0284C7" stroke-opacity="0.3" stroke-width="1"/>
+      <circle cx="740" cy="135" r="30" fill="none" stroke="#059669" stroke-opacity="0.38" stroke-width="1"/>
+
+      <line x1="652" y1="135" x2="828" y2="135" stroke="#059669" stroke-opacity="0.18" stroke-width="1"/>
+      <line x1="740" y1="47" x2="740" y2="223" stroke="#059669" stroke-opacity="0.18" stroke-width="1"/>
+
+      <g class="radar-sweep">
+        <path d="M 740 135 L 740 57 A 78 78 0 0 1 807 96 Z" fill="#059669" fill-opacity="0.16"/>
+        <line x1="740" y1="135" x2="740" y2="57" stroke="#059669" stroke-width="1.8"/>
+      </g>
+
+      <circle class="pulse-dot" cx="776" cy="102" r="3.5" fill="#0284C7" style="transform-origin: 776px 102px;"/>
+      <circle class="pulse-dot" cx="702" cy="166" r="3" fill="#059669" style="transform-origin: 702px 166px; animation-delay: 0.7s;"/>
+      <circle class="pulse-dot" cx="784" cy="158" r="2.8" fill="#0D9488" style="transform-origin: 784px 158px; animation-delay: 1.3s;"/>
+
+      <g class="float-slow" transform="translate(740, 135)">
+        <path d="M 0 -16 L 13 -10 L 13 1 C 13 9 7 15 0 18 C -7 15 -13 9 -13 1 L -13 -10 Z" fill="#FFFFFF" stroke="#059669" stroke-width="2"/>
+        <path d="M -5 1 L -1 5 L 6 -4" fill="none" stroke="#059669" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+
+      <text x="740" y="238" text-anchor="middle" class="mono" font-size="10" font-weight="600" letter-spacing="1.6" fill="#475569">TSHARK ▸ WAZUH ▸ ALERT</text>
+    </g>
+
+    <path class="wave-flow" d="M 0 264 Q 150 256 300 264 T 600 264 T 900 264" fill="none" stroke="url(#lineGrad)" stroke-width="2" opacity="0.6"/>
+
+    <rect x="0.75" y="0.75" width="898.5" height="268.5" rx="15.5" fill="none" stroke="#CBD5E1" stroke-width="1.5"/>
+  </g>
+</svg>

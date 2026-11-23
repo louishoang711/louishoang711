@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 46" width="100%" role="img" aria-label="01 Featured Projects">
+  <defs>
+    <linearGradient id="hGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A7F3D0">
+        <animate attributeName="stop-color" values="#A7F3D0;#38BDF8;#34D399;#A7F3D0" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#34D399">
+        <animate attributeName="stop-color" values="#34D399;#A7F3D0;#38BDF8;#34D399" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#38BDF8">
+        <animate attributeName="stop-color" values="#38BDF8;#34D399;#A7F3D0;#38BDF8" dur="5s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34D399" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#34D399" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="trackClip">
+      <rect x="0" y="38" width="900" height="2" rx="1"/>
+    </clipPath>
+  </defs>
+  <style>
+    .idx { font-family: 'JetBrains Mono', 'Fira Code', Consolas, ui-monospace, monospace; font-size: 13px; font-weight: 700; fill: #34D399; letter-spacing: 1.5px; }
+    .ttl { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Arial, sans-serif; font-size: 19px; font-weight: 800; letter-spacing: 2.5px; }
+    .path { font-family: 'JetBrains Mono', 'Fira Code', Consolas, ui-monospace, monospace; font-size: 12px; font-weight: 600; fill: #64748B; }
+    .dot { animation: p 2.2s ease-in-out infinite; transform-origin: 8px 20px; }
+    .scan { animation: slide 3.8s ease-in-out infinite; }
+    @keyframes p { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+    @keyframes slide { 0% { transform: translateX(-220px); } 100% { transform: translateX(920px); } }
+  </style>
+  <circle class="dot" cx="8" cy="20" r="4" fill="#34D399"/>
+  <text x="22" y="25" class="idx">01 //</text>
+  <text x="72" y="26" class="ttl" fill="url(#hGrad)">FEATURED PROJECTS</text>
+  <rect x="794" y="9" width="106" height="22" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <text x="847" y="24" text-anchor="middle" class="path">~/projects</text>
+  <rect x="0" y="38" width="900" height="2" rx="1" fill="#1E293B"/>
+  <g clip-path="url(#trackClip)">
+    <rect class="scan" x="0" y="38" width="220" height="2" fill="url(#beam)"/>
+  </g>
+</svg>
